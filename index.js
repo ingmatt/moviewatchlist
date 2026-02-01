@@ -30,7 +30,7 @@ searchBtn.addEventListener("click", async function(){
                     movieContainer.innerHTML += `
                     <div class="movie-container">
                         <div class="movie-poster">
-                            <img width="120px" src=${data.Poster} >
+                            <img width="200px" src=${data.Poster} >
                         </div>
                         <div class="movie-data">
                             <p class="title">${data.Title}</p>
